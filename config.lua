@@ -538,22 +538,39 @@ Config.Stores = {
 
 -- set isGang to true if the requiredJob is a gang
 Config.ClothingRooms = {
-    [1] = {requiredJob = 'police', isGang = false, coords = vector3(458.67, -998.89, 30.69), width = 2, length = 2, cameraLocation = vector4(458.67, -998.89, 30.69, 9.77)}, --MRPD
-    [2] = {requiredJob = 'ambulance', isGang = false, coords = vector3(300.71, -597.53, 43.28), width = 2, length = 2, cameraLocation = vector4(300.71, -597.53, 43.28, 341.24)}, --PillboxHospital
-    [3] = {requiredJob = "realestate", isGang = false, coords = vector3(-131.45, -633.74, 168.82), width = 2, length = 2, cameraLocation = vector4(-131.45, -633.74, 168.82,  2.18)},
-    [4] = {requiredJob = 'police', isGang = false, coords = vector3(1842.35, 3679.92, 34.19), width = 2, length = 2, cameraLocation = vector4(1842.35, 3679.92, 34.19, 298.67)}, --SandyPD
-    [5] = {requiredJob = 'police', isGang = false, coords = vector3(-439.36, 6009.44, 37.0), width = 2, length = 2, cameraLocation = vector4(-439.36, 6009.44, 37.0, 138.01)}, --PaletoPD
-    [6] = {requiredJob = 'police', isGang = false, coords = vector3(853.12, -1313.54, 28.24), width = 2, length = 2, cameraLocation = vector4(853.12, -1313.54, 28.24, 325.46)}, --LaMesaPD
-    [7] = {requiredJob = 'police', isGang = false, coords = vector3(361.04, -1592.52, 25.45), width = 2, length = 2, cameraLocation = vector4(361.04, -1592.52, 25.45, 232.01)}, --DavisPD
-    [8] = {requiredJob = 'police', isGang = false, coords = vector3(-257.22, 6329.04, 32.43), width = 2, length = 2, cameraLocation = vector4(-257.22, 6329.04, 32.43, 133.65)}, --PaletoHospital
+    -- REAL ESTATE --
+    [1] = {requiredJob = "realestate", isGang = false, coords = vector3(-131.45, -633.74, 168.82), width = 2, length = 2, cameraLocation = vector4(-131.45, -633.74, 168.82,  2.18)},
+    -- POLICE --
+    [2] = {requiredJob = 'police', isGang = false, coords = vector3(458.67, -998.89, 30.69), width = 2, length = 2, cameraLocation = vector4(458.67, -998.89, 30.69, 9.77)}, --MRPD
+    [3] = {requiredJob = 'police', isGang = false, coords = vector3(1842.35, 3679.92, 34.19), width = 2, length = 2, cameraLocation = vector4(1842.35, 3679.92, 34.19, 298.67)}, --SandyPD
+    [4] = {requiredJob = 'police', isGang = false, coords = vector3(-439.36, 6009.44, 37.0), width = 2, length = 2, cameraLocation = vector4(-439.36, 6009.44, 37.0, 138.01)}, --PaletoPD
+    [5] = {requiredJob = 'police', isGang = false, coords = vector3(853.12, -1313.54, 28.24), width = 2, length = 2, cameraLocation = vector4(853.12, -1313.54, 28.24, 325.46)}, --LaMesaPD
+    [6] = {requiredJob = 'police', isGang = false, coords = vector3(361.04, -1592.52, 25.45), width = 2, length = 2, cameraLocation = vector4(361.04, -1592.52, 25.45, 232.01)}, --DavisPD
+    [7] = {requiredJob = 'police', isGang = false, coords = vector3(-257.22, 6329.04, 32.43), width = 2, length = 2, cameraLocation = vector4(-257.22, 6329.04, 32.43, 133.65)}, --PaletoHospital
     -- [9] = {requiredJob = 'police', isGang = false, coords = vector3(-1814.73, -355.14, 49.46), width = 2, length = 2, cameraLocation = vector4(-1814.73, -355.14, 49.46, 50.68)}, --OceanHospital
     -- [10] = {requiredJob = 'police', isGang = false, coords = vector3(-1818.7, -359.06, 49.45), width = 2, length = 2, cameraLocation = vector4(-1818.7, -359.06, 49.45, 55.58)}, --OceanHospital
+    -- AMBULANCE --
+    [8] = {requiredJob = 'ambulance', isGang = false, coords = vector3(300.71, -597.53, 43.28), width = 2, length = 2, cameraLocation = vector4(300.71, -597.53, 43.28, 341.24)}, --PillboxHospital
     [9] = {requiredJob = 'ambulance', isGang = false, coords = vector3(1662.68, 3658.09, 35.34), width = 2, length = 2, cameraLocation = vector4(1662.68, 3658.09, 35.34, 180.36)}, --SandyHospital
     [10] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-632.73, -88.43, 45.41), width = 2, length = 2, cameraLocation = vector4(-632.73, -88.43, 45.41, 302.79)}, --FireHQ
     [11] = {requiredJob = 'ambulance', isGang = false, coords = vector3(212.88, -1659.13, 29.8), width = 2, length = 2, cameraLocation = vector4(212.88, -1659.13, 29.8, 14.13)}, --DavisFire
-    [12] = {requiredJob = 'ambulance', isGang = false, coords = vector3(1211.17, -1474.98, 34.86), width = 2, length = 2, cameraLocation = vector4(1211.17, -1474.98, 34.86, 47.31)} -- LaMesaFire
-    [13] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-443.33, -311.28, 34.91), width = 2, length = 2, cameraLocation = vector4(-443.33, -311.28, 34.91, 204.41)} -- Zonah
-    [14] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-437.31, -309.38, 34.91), width = 2, length = 2, cameraLocation = vector4(-437.31, -309.38, 34.91, 203.2)} -- Zonah
+    [12] = {requiredJob = 'ambulance', isGang = false, coords = vector3(1211.17, -1474.98, 34.86), width = 2, length = 2, cameraLocation = vector4(1211.17, -1474.98, 34.86, 47.31)}, -- LaMesaFire
+    [13] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-443.33, -311.28, 34.91), width = 2, length = 2, cameraLocation = vector4(-443.33, -311.28, 34.91, 204.41)}, -- Zonah
+    [14] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-437.31, -309.38, 34.91), width = 2, length = 2, cameraLocation = vector4(-437.31, -309.38, 34.91, 203.2)}, -- Zonah
+    -- MECHANICS --
+    [15] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-603.05, -915.49, 23.89), width = 2, length = 2, cameraLocation = vector4(-603.05, -915.49, 23.89, 272.18)}, -- Redline
+    [16] = {requiredJob = 'mechanic', isGang = false, coords = vector3(899.39, -2100.18, 34.89), width = 2, length = 2, cameraLocation = vector4(899.39, -2100.18, 34.89, 264.99)}, -- East Customs
+    [17] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-207.97, -1339.81, 34.89), width = 2, length = 2, cameraLocation = vector4(-207.97, -1339.81, 34.89, 33.16)}, -- Old Bennys
+    [18] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-17.2, -1055.85, 32.4), width = 2, length = 2, cameraLocation = vector4(-17.2, -1055.85, 32.4, 98.03)}, -- New Bennys
+    [19] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-1428.89, -457.58, 35.91), width = 2, length = 2, cameraLocation = vector4(-1428.89, -457.58, 35.91, 245.07)}, -- Hayes Autos
+    [20] = {requiredJob = 'mechanic', isGang = false, coords = vector3(956.36, -966.15, 39.51), width = 2, length = 2, cameraLocation = vector4(956.36, -966.15, 39.51, 104.7)}, -- Imports
+    [21] = {requiredJob = 'mechanic', isGang = false, coords = vector3(726.73, -1073.64, 28.31), width = 2, length = 2, cameraLocation = vector4(726.73, -1073.64, 28.31, 338.64)}, -- Shitty LS Customs
+    [22] = {requiredJob = 'mechanic', isGang = false, coords = vector3(472.22, -1309.26, 29.23), width = 2, length = 2, cameraLocation = vector4(472.22, -1309.26, 29.23, 226.55)}, -- Old Tow Place
+    [23] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-344.05, -122.93, 39.01), width = 2, length = 2, cameraLocation = vector4(-344.05, -122.93, 39.01, 192.11)}, -- LS Customs OG
+    [24] = {requiredJob = 'mechanic', isGang = false, coords = vector3(153.14, -3013.9, 7.04), width = 2, length = 2, cameraLocation = vector4(153.14, -3013.9, 7.04, 358.31)}, -- Tuner Shop
+    [25] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-1140.28, -2006.69, 13.18), width = 2, length = 2, cameraLocation = vector4(-1140.29, -2006.7, 13.18, 95.93)}, -- LS Customs Airport
+    [26] = {requiredJob = 'mechanic', isGang = false, coords = vector3(1187.41, 2640.06, 38.44), width = 2, length = 2, cameraLocation = vector4(1187.41, 2640.06, 38.44, 285.1)}, -- LS Customs Sandy
+    [27] = {requiredJob = 'mechanic', isGang = false, coords = vector3(101.44, 6618.15, 32.47), width = 2, length = 2, cameraLocation = vector4(101.44, 6618.15, 32.47, 138.47)} -- LS Customs Paleto
 }
 
 Config.Outfits = {
@@ -1848,6 +1865,223 @@ Config.Outfits = {
                         ['hat'] = {item = 121, texture = 0}, -- Hat
                         ['glass'] = {item = 0, texture = 0}, -- Glasses
                         ['ear'] = {item = 0, texture = 0} -- Ear accessories
+                    }
+                }
+            }
+        }
+    },
+    ['mechanic'] = {
+        -- Job
+        ['male'] = {
+            -- Gender
+            [0] = {
+                -- Recruit
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Recruit',
+                    outfitData = {
+                        ["pants"]       = { item = 97, texture = 1},  -- Pants
+                        ["arms"]        = { item = 37, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 178, texture = 1},  -- Jacket
+                        ["shoes"]       = { item = 19, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 0, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [1] = {
+                -- Novice
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Novice',
+                    outfitData = {
+                        ["pants"]       = { item = 97, texture = 1},  -- Pants
+                        ["arms"]        = { item = 37, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 178, texture = 1},  -- Jacket
+                        ["shoes"]       = { item = 19, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 0, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [2] = {
+                -- Experienced
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Experienced',
+                    outfitData = {
+                        ["pants"]       = { item = 97, texture = 1},  -- Pants
+                        ["arms"]        = { item = 37, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 178, texture = 1},  -- Jacket
+                        ["shoes"]       = { item = 19, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 0, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [3] = {
+                -- Advanced
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Advanced',
+                    outfitData = {
+                        ["pants"]       = { item = 97, texture = 1},  -- Pants
+                        ["arms"]        = { item = 37, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 178, texture = 1},  -- Jacket
+                        ["shoes"]       = { item = 19, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 0, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [4] = {
+                -- Manager
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Manager',
+                    outfitData = {
+                        ["pants"]       = { item = 97, texture = 1},  -- Pants
+                        ["arms"]        = { item = 37, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 178, texture = 1},  -- Jacket
+                        ["shoes"]       = { item = 19, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 0, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            }
+        },
+        ['female'] = {
+            -- Gender
+            [0] = {
+                -- Recruit
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Recruit',
+                    outfitData = {
+                        ["pants"]       = { item = 28, texture = 0},  -- Pants
+                        ["arms"]        = { item = 22, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 25, texture = 0},  -- Jacket
+                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 0, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [1] = {
+                -- Novice
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Novice',
+                    outfitData = {
+                        ["pants"]       = { item = 28, texture = 0},  -- Pants
+                        ["arms"]        = { item = 1, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 31, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 294, texture = 0},  -- Jacket
+                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 12, texture = -1},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [2] = {
+                -- Experienced
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Experienced',
+                    outfitData = {
+                        ["pants"]       = { item = 28, texture = 0},  -- Pants
+                        ["arms"]        = { item = 1, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 31, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 294, texture = 0},  -- Jacket
+                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 12, texture = -1},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [3] = {
+                -- Advanced
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Advanced',
+                    outfitData = {
+                        ["pants"]       = { item = 28, texture = 0},  -- Pants
+                        ["arms"]        = { item = 1, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 31, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 294, texture = 0},  -- Jacket
+                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 12, texture = -1},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [4] = {
+                -- Manager
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Manager',
+                    outfitData = {
+                        ["pants"]       = { item = 28, texture = 0},  -- Pants
+                        ["arms"]        = { item = 1, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 31, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 294, texture = 0},  -- Jacket
+                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 12, texture = -1},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
                     }
                 }
             }
