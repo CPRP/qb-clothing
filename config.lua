@@ -570,7 +570,9 @@ Config.ClothingRooms = {
     [24] = {requiredJob = 'mechanic', isGang = false, coords = vector3(153.14, -3013.9, 7.04), width = 2, length = 2, cameraLocation = vector4(153.14, -3013.9, 7.04, 358.31)}, -- Tuner Shop
     [25] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-1140.28, -2006.69, 13.18), width = 2, length = 2, cameraLocation = vector4(-1140.29, -2006.7, 13.18, 95.93)}, -- LS Customs Airport
     [26] = {requiredJob = 'mechanic', isGang = false, coords = vector3(1187.41, 2640.06, 38.44), width = 2, length = 2, cameraLocation = vector4(1187.41, 2640.06, 38.44, 285.1)}, -- LS Customs Sandy
-    [27] = {requiredJob = 'mechanic', isGang = false, coords = vector3(101.44, 6618.15, 32.47), width = 2, length = 2, cameraLocation = vector4(101.44, 6618.15, 32.47, 138.47)} -- LS Customs Paleto
+    [27] = {requiredJob = 'mechanic', isGang = false, coords = vector3(101.44, 6618.15, 32.47), width = 2, length = 2, cameraLocation = vector4(101.44, 6618.15, 32.47, 138.47)}, -- LS Customs Paleto
+    -- UWU CAFE
+    [28] = {requiredJob = 'catcafe', isGang = false, coords = vector3(-587.87, -1050.38, 22.34) , width = 2, length = 2, cameraLocation = vector4(-587.87, -1050.38, 22.34, 278.65)} -- Uwu Cat Cafe
 }
 
 Config.Outfits = {
@@ -1865,6 +1867,223 @@ Config.Outfits = {
                         ['hat'] = {item = 121, texture = 0}, -- Hat
                         ['glass'] = {item = 0, texture = 0}, -- Glasses
                         ['ear'] = {item = 0, texture = 0} -- Ear accessories
+                    }
+                }
+            }
+        }
+    },
+    ['catcafe'] = {
+        -- Job
+        ['male'] = {
+            -- Gender
+            [0] = {
+                -- Recruit
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Recruit',
+                    outfitData = {
+                        ["pants"]       = { item = 52, texture = 0},  -- Pants
+                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 47, texture = 5},  -- Jacket
+                        ["shoes"]       = { item = 12, texture = 8},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 0, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [1] = {
+                -- Novice
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Server',
+                    outfitData = {
+                        ["pants"]       = { item = 52, texture = 0},  -- Pants
+                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 47, texture = 5},  -- Jacket
+                        ["shoes"]       = { item = 12, texture = 8},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 0, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [2] = {
+                -- Experienced
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Cook',
+                    outfitData = {
+                        ["pants"]       = { item = 52, texture = 0},  -- Pants
+                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 47, texture = 0},  -- Jacket
+                        ["shoes"]       = { item = 12, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 0, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [3] = {
+                -- Advanced
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Team Lead',
+                    outfitData = {
+                        ["pants"]       = { item = 52, texture = 0},  -- Pants
+                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 47, texture = 5},  -- Jacket
+                        ["shoes"]       = { item = 12, texture = 8},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 0, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [4] = {
+                -- Manager
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Manager',
+                    outfitData = {
+                        ["pants"]       = { item = 52, texture = 0},  -- Pants
+                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 15, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 47, texture = 5},  -- Jacket
+                        ["shoes"]       = { item = 12, texture = 8},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 0, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            }
+        },
+        ['female'] = {
+            -- Gender
+            [0] = {
+                -- Recruit
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Recruit',
+                    outfitData = {
+                        ["pants"]       = { item = 108, texture = 1},  -- Pants
+                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 418, texture = 0},  -- Jacket
+                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 1, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [1] = {
+                -- Novice
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Server',
+                    outfitData = {
+                        ["pants"]       = { item = 108, texture = 1},  -- Pants
+                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 418, texture = 0},  -- Jacket
+                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 1, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [2] = {
+                -- Experienced
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Cook',
+                    outfitData = {
+                        ["pants"]       = { item = 19, texture = 1},  -- Pants
+                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 423, texture = 4},  -- Jacket
+                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 1, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [3] = {
+                -- Advanced
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Team Lead',
+                    outfitData = {
+                        ["pants"]       = { item = 108, texture = 1},  -- Pants
+                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 418, texture = 0},  -- Jacket
+                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 1, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
+                    }
+                }
+            },
+            -- Gender
+            [4] = {
+                -- Manager
+                [1] = {
+                    -- Outfits
+                    outfitLabel = 'Manager',
+                    outfitData = {
+                        ["pants"]       = { item = 108, texture = 1},  -- Pants
+                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
+                        ["vest"]        = { item = 0, texture = 0},  -- Body Vest
+                        ["torso2"]      = { item = 418, texture = 0},  -- Jacket
+                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
+                        ["bag"]         = { item = 0, texture = 0},  -- Bag
+                        ["hat"]         = { item = 1, texture = 0},  -- Hat
+                        ["glass"]       = { item = 0, texture = 0},  -- Glasses
+                        ["mask"]        = { item = 0, texture = 0},  -- Mask
                     }
                 }
             }
