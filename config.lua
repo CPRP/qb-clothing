@@ -1990,11 +1990,11 @@ Config.Outfits = {
                     outfitLabel = 'Recruit',
                     outfitData = {
                         ["pants"]       = { item = 108, texture = 1},  -- Pants
-                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["arms"]        = { item = 9, texture = 0},  -- Arms
                         ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
                         ["vest"]        = { item = 0, texture = 0},  -- Body Vest
                         ["torso2"]      = { item = 418, texture = 0},  -- Jacket
-                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["shoes"]       = { item = 39, texture = 0},  -- Shoes
                         ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
                         ["bag"]         = { item = 0, texture = 0},  -- Bag
                         ["hat"]         = { item = 1, texture = 0},  -- Hat
@@ -2011,11 +2011,11 @@ Config.Outfits = {
                     outfitLabel = 'Server',
                     outfitData = {
                         ["pants"]       = { item = 108, texture = 1},  -- Pants
-                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["arms"]        = { item = 9, texture = 0},  -- Arms
                         ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
                         ["vest"]        = { item = 0, texture = 0},  -- Body Vest
                         ["torso2"]      = { item = 418, texture = 0},  -- Jacket
-                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["shoes"]       = { item = 39, texture = 0},  -- Shoes
                         ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
                         ["bag"]         = { item = 0, texture = 0},  -- Bag
                         ["hat"]         = { item = 1, texture = 0},  -- Hat
@@ -2032,11 +2032,11 @@ Config.Outfits = {
                     outfitLabel = 'Cook',
                     outfitData = {
                         ["pants"]       = { item = 19, texture = 1},  -- Pants
-                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["arms"]        = { item = 14, texture = 0},  -- Arms
                         ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
                         ["vest"]        = { item = 0, texture = 0},  -- Body Vest
                         ["torso2"]      = { item = 423, texture = 4},  -- Jacket
-                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["shoes"]       = { item = 39, texture = 0},  -- Shoes
                         ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
                         ["bag"]         = { item = 0, texture = 0},  -- Bag
                         ["hat"]         = { item = 1, texture = 0},  -- Hat
@@ -2053,11 +2053,11 @@ Config.Outfits = {
                     outfitLabel = 'Team Lead',
                     outfitData = {
                         ["pants"]       = { item = 108, texture = 1},  -- Pants
-                        ["arms"]        = { item = 4, texture = 0},  -- Arms
+                        ["arms"]        = { item = 9, texture = 0},  -- Arms
                         ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
                         ["vest"]        = { item = 0, texture = 0},  -- Body Vest
                         ["torso2"]      = { item = 418, texture = 0},  -- Jacket
-                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["shoes"]       = { item = 39, texture = 0},  -- Shoes
                         ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
                         ["bag"]         = { item = 0, texture = 0},  -- Bag
                         ["hat"]         = { item = 1, texture = 0},  -- Hat
@@ -2078,7 +2078,7 @@ Config.Outfits = {
                         ["t-shirt"]     = { item = 14, texture = 0},  -- T Shirt
                         ["vest"]        = { item = 0, texture = 0},  -- Body Vest
                         ["torso2"]      = { item = 418, texture = 0},  -- Jacket
-                        ["shoes"]       = { item = 10, texture = 0},  -- Shoes
+                        ["shoes"]       = { item = 39, texture = 0},  -- Shoes
                         ["accessory"]   = { item = 0, texture = 0},  -- Neck Accessory
                         ["bag"]         = { item = 0, texture = 0},  -- Bag
                         ["hat"]         = { item = 1, texture = 0},  -- Hat
