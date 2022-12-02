@@ -1,11 +1,27 @@
 Config = Config or {}
 
 Config.WomanPlayerModels = {
-    'mp_f_freemode_01'
+    'mp_f_freemode_01',
+    'Aquaman',
+    'BatmanJL',
+    'Cyborg',
+    'Dpool',
+    'Spider-Man2002',
+    'Spider-Man2007',
+    'Spider-ManBS',
+    'WonderWoman'
 }
 
 Config.ManPlayerModels = {
-    'mp_m_freemode_01'
+    'mp_m_freemode_01',
+    'Aquaman',
+    'BatmanJL',
+    'Cyborg',
+    'Dpool',
+    'Spider-Man2002',
+    'Spider-Man2007',
+    'Spider-ManBS',
+    'WonderWoman'
 }
 Config.LoadedManModels = {}
 Config.LoadedWomanModels = {}
