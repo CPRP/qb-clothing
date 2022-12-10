@@ -74,10 +74,10 @@ Config.ClothingRooms = {
     [8] = {requiredJob = 'ambulance', isGang = false, coords = vector3(300.71, -597.53, 43.28), width = 2, length = 2, cameraLocation = vector4(300.71, -597.53, 43.28, 341.24)}, --PillboxHospital
     [9] = {requiredJob = 'ambulance', isGang = false, coords = vector3(1662.68, 3658.09, 35.34), width = 2, length = 2, cameraLocation = vector4(1662.68, 3658.09, 35.34, 180.36)}, --SandyHospital
     [10] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-632.73, -88.43, 45.41), width = 2, length = 2, cameraLocation = vector4(-632.73, -88.43, 45.41, 302.79)}, --FireHQ
-    [11] = {requiredJob = 'ambulance', isGang = false, coords = vector3(212.88, -1659.13, 29.8), width = 2, length = 2, cameraLocation = vector4(212.88, -1659.13, 29.8, 14.13)}, --DavisFire
-    [12] = {requiredJob = 'ambulance', isGang = false, coords = vector3(1211.17, -1474.98, 34.86), width = 2, length = 2, cameraLocation = vector4(1211.17, -1474.98, 34.86, 47.31)}, -- LaMesaFire
-    [13] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-443.33, -311.28, 34.91), width = 2, length = 2, cameraLocation = vector4(-443.33, -311.28, 34.91, 204.41)}, -- Zonah
-    [14] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-437.31, -309.38, 34.91), width = 2, length = 2, cameraLocation = vector4(-437.31, -309.38, 34.91, 203.2)}, -- Zonah
+    [11] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-375.81, 6104.75, 31.38), width = 2, length = 2, cameraLocation = vector4(-375.81, 6104.75, 31.38, 171.69)}, --PaletoFD
+    [12] = {requiredJob = 'ambulance', isGang = false, coords = vector3(1198.99, -1486.97, 34.69), width = 2, length = 2, cameraLocation = vector4(1198.96, -1487.0, 34.69, 301.68)}, --LaMesaFire
+    [13] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-443.33, -311.28, 34.91), width = 2, length = 2, cameraLocation = vector4(-443.33, -311.28, 34.91, 204.41)}, --Zonah
+    [14] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-437.31, -309.38, 34.91), width = 2, length = 2, cameraLocation = vector4(-437.31, -309.38, 34.91, 203.2)}, --Zonah
     -- MECHANICS --
     [15] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-603.05, -915.49, 23.89), width = 2, length = 2, cameraLocation = vector4(-603.05, -915.49, 23.89, 272.18)}, -- Redline
     [16] = {requiredJob = 'mechanic', isGang = false, coords = vector3(882.56, -2101.9, 30.46), width = 2, length = 2, cameraLocation = vector4(882.56, -2101.9, 30.46, 151.26)}, -- East Customs
