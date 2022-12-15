@@ -67,7 +67,7 @@ Config.ClothingRooms = {
     [4] = {requiredJob = 'police', isGang = false, coords = vector3(-439.36, 6009.44, 37.0), width = 2, length = 2, cameraLocation = vector4(-439.36, 6009.44, 37.0, 138.01)}, --PaletoPD
     [5] = {requiredJob = 'police', isGang = false, coords = vector3(853.12, -1313.54, 28.24), width = 2, length = 2, cameraLocation = vector4(853.12, -1313.54, 28.24, 325.46)}, --LaMesaPD
     [6] = {requiredJob = 'police', isGang = false, coords = vector3(361.04, -1592.52, 25.45), width = 2, length = 2, cameraLocation = vector4(361.04, -1592.52, 25.45, 232.01)}, --DavisPD
-    [7] = {requiredJob = 'police', isGang = false, coords = vector3(-257.22, 6329.04, 32.43), width = 2, length = 2, cameraLocation = vector4(-257.22, 6329.04, 32.43, 133.65)}, --PaletoHospital
+    [7] = {requiredJob = 'police', isGang = false, coords = vector3(1538.19, 811.68, 77.66), width = 2, length = 2, cameraLocation = vector4(1538.19, 811.68, 77.66, 195.95)}, --SASP
     -- [9] = {requiredJob = 'police', isGang = false, coords = vector3(-1814.73, -355.14, 49.46), width = 2, length = 2, cameraLocation = vector4(-1814.73, -355.14, 49.46, 50.68)}, --OceanHospital
     -- [10] = {requiredJob = 'police', isGang = false, coords = vector3(-1818.7, -359.06, 49.45), width = 2, length = 2, cameraLocation = vector4(-1818.7, -359.06, 49.45, 55.58)}, --OceanHospital
     -- AMBULANCE --
