@@ -23,6 +23,7 @@ Config.ManPlayerModels = {
     'Spider-ManBS',
     'WonderWoman'
 }
+
 Config.LoadedManModels = {}
 Config.LoadedWomanModels = {}
 
