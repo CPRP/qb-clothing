@@ -1728,27 +1728,27 @@ end)
 -- Threads
 Citizen.CreateThread(function()
     for k, _ in pairs (Config.Stores) do
-        if Config.Stores[k].shopType == "clothing" then
-            local clothingShop = AddBlipForCoord(Config.Stores[k].coords)
-            SetBlipSprite(clothingShop, 366)
-            SetBlipColour(clothingShop, 47)
-            SetBlipScale (clothingShop, 0.7)
-            SetBlipAsShortRange(clothingShop, true)
-            BeginTextCommandSetBlipName("STRING")
-            AddTextComponentString("Clothing store")
-            EndTextCommandSetBlipName(clothingShop)
-        end
+        -- if Config.Stores[k].shopType == "clothing" then
+        --     local clothingShop = AddBlipForCoord(Config.Stores[k].coords)
+        --     SetBlipSprite(clothingShop, 366)
+        --     SetBlipColour(clothingShop, 47)
+        --     SetBlipScale (clothingShop, 0.7)
+        --     SetBlipAsShortRange(clothingShop, true)
+        --     BeginTextCommandSetBlipName("STRING")
+        --     AddTextComponentString("Clothing store")
+        --     EndTextCommandSetBlipName(clothingShop)
+        -- end
 
-        if Config.Stores[k].shopType == "barber" then
-            local barberShop = AddBlipForCoord(Config.Stores[k].coords)
-            SetBlipSprite(barberShop, 71)
-            SetBlipColour(barberShop, 0)
-            SetBlipScale (barberShop, 0.7)
-            SetBlipAsShortRange(barberShop, true)
-            BeginTextCommandSetBlipName("STRING")
-            AddTextComponentString("Barber")
-            EndTextCommandSetBlipName(barberShop)
-        end
+        -- if Config.Stores[k].shopType == "barber" then
+        --     local barberShop = AddBlipForCoord(Config.Stores[k].coords)
+        --     SetBlipSprite(barberShop, 71)
+        --     SetBlipColour(barberShop, 0)
+        --     SetBlipScale (barberShop, 0.7)
+        --     SetBlipAsShortRange(barberShop, true)
+        --     BeginTextCommandSetBlipName("STRING")
+        --     AddTextComponentString("Barber")
+        --     EndTextCommandSetBlipName(barberShop)
+        -- end
 
         if Config.Stores[k].shopType == "surgeon" then
             local surgeonShop = AddBlipForCoord(Config.Stores[k].coords)
