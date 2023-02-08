@@ -82,17 +82,16 @@ Config.ClothingRooms = {
     -- MECHANICS --
     [15] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-603.05, -915.49, 23.89), width = 2, length = 2, cameraLocation = vector4(-603.05, -915.49, 23.89, 272.18)}, -- Redline
     [16] = {requiredJob = 'mechanic', isGang = false, coords = vector3(882.56, -2101.9, 30.46), width = 2, length = 2, cameraLocation = vector4(882.56, -2101.9, 30.46, 151.26)}, -- East Customs
-    [17] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-207.97, -1339.81, 34.89), width = 2, length = 2, cameraLocation = vector4(-207.97, -1339.81, 34.89, 33.16)}, -- Old Bennys
-    [18] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-17.2, -1055.85, 32.4), width = 2, length = 2, cameraLocation = vector4(-17.2, -1055.85, 32.4, 98.03)}, -- New Bennys
-    [19] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-1428.89, -457.58, 35.91), width = 2, length = 2, cameraLocation = vector4(-1428.89, -457.58, 35.91, 245.07)}, -- Hayes Autos
-    [20] = {requiredJob = 'mechanic', isGang = false, coords = vector3(956.36, -966.15, 39.51), width = 2, length = 2, cameraLocation = vector4(956.36, -966.15, 39.51, 104.7)}, -- Imports
-    [21] = {requiredJob = 'mechanic', isGang = false, coords = vector3(726.73, -1073.64, 28.31), width = 2, length = 2, cameraLocation = vector4(726.73, -1073.64, 28.31, 338.64)}, -- Shitty LS Customs
-    [22] = {requiredJob = 'mechanic', isGang = false, coords = vector3(472.22, -1309.26, 29.23), width = 2, length = 2, cameraLocation = vector4(472.22, -1309.26, 29.23, 226.55)}, -- Old Tow Place
-    [23] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-344.05, -122.93, 39.01), width = 2, length = 2, cameraLocation = vector4(-344.05, -122.93, 39.01, 192.11)}, -- LS Customs OG
-    [24] = {requiredJob = 'mechanic', isGang = false, coords = vector3(153.14, -3013.9, 7.04), width = 2, length = 2, cameraLocation = vector4(153.14, -3013.9, 7.04, 358.31)}, -- Tuner Shop
-    [25] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-1140.28, -2006.69, 13.18), width = 2, length = 2, cameraLocation = vector4(-1140.29, -2006.7, 13.18, 95.93)}, -- LS Customs Airport
-    [26] = {requiredJob = 'mechanic', isGang = false, coords = vector3(1187.41, 2640.06, 38.44), width = 2, length = 2, cameraLocation = vector4(1187.41, 2640.06, 38.44, 285.1)}, -- LS Customs Sandy
-    [27] = {requiredJob = 'mechanic', isGang = false, coords = vector3(101.44, 6618.15, 32.47), width = 2, length = 2, cameraLocation = vector4(101.44, 6618.15, 32.47, 138.47)}, -- LS Customs Paleto
+    [17] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-194.33, -1337.81, 31.3), width = 2, length = 2, cameraLocation = vector4(-194.33, -1337.81, 31.3, 94.52)}, -- Bennys
+    [18] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-1428.89, -457.58, 35.91), width = 2, length = 2, cameraLocation = vector4(-1428.89, -457.58, 35.91, 245.07)}, -- Hayes Autos
+    [19] = {requiredJob = 'mechanic', isGang = false, coords = vector3(956.36, -966.15, 39.51), width = 2, length = 2, cameraLocation = vector4(956.36, -966.15, 39.51, 104.7)}, -- Imports
+    [20] = {requiredJob = 'mechanic', isGang = false, coords = vector3(726.73, -1073.64, 28.31), width = 2, length = 2, cameraLocation = vector4(726.73, -1073.64, 28.31, 338.64)}, -- Shitty LS Customs
+    [21] = {requiredJob = 'mechanic', isGang = false, coords = vector3(472.22, -1309.26, 29.23), width = 2, length = 2, cameraLocation = vector4(472.22, -1309.26, 29.23, 226.55)}, -- Old Tow Place
+    [22] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-344.05, -122.93, 39.01), width = 2, length = 2, cameraLocation = vector4(-344.05, -122.93, 39.01, 192.11)}, -- LS Customs OG
+    [23] = {requiredJob = 'mechanic', isGang = false, coords = vector3(153.14, -3013.9, 7.04), width = 2, length = 2, cameraLocation = vector4(153.14, -3013.9, 7.04, 358.31)}, -- Tuner Shop
+    [24] = {requiredJob = 'mechanic', isGang = false, coords = vector3(-1140.28, -2006.69, 13.18), width = 2, length = 2, cameraLocation = vector4(-1140.29, -2006.7, 13.18, 95.93)}, -- LS Customs Airport
+    [25] = {requiredJob = 'mechanic', isGang = false, coords = vector3(1187.41, 2640.06, 38.44), width = 2, length = 2, cameraLocation = vector4(1187.41, 2640.06, 38.44, 285.1)}, -- LS Customs Sandy
+    [26] = {requiredJob = 'mechanic', isGang = false, coords = vector3(101.44, 6618.15, 32.47), width = 2, length = 2, cameraLocation = vector4(101.44, 6618.15, 32.47, 138.47)}, -- LS Customs Paleto
     -- UWU CAFE
     [28] = {requiredJob = 'catcafe', isGang = false, coords = vector3(-587.87, -1050.38, 22.34) , width = 2, length = 2, cameraLocation = vector4(-587.87, -1050.38, 22.34, 278.65)} -- Uwu Cat Cafe
 }
