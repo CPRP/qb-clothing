@@ -1720,7 +1720,7 @@ RegisterNUICallback('saveClothing', function(_, cb)
     cb('ok')
 end)
 -- Commands
-RegisterCommand("refreshskin", function()
+RegisterCommand("rs", function() -- USED TO BE refreshskin
     local playerPed = PlayerPedId()
     local health = GetEntityHealth(playerPed)
     reloadSkin(health)
